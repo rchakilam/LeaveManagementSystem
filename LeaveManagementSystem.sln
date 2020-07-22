@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeaveManagementSystem", "LeaveManagementSystem\LeaveManagementSystem.csproj", "{C5406A01-6FCD-4910-821D-F39B1F380E96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeaveManagementSystemAPI", "LeaveManagementSystemAPI\LeaveManagementSystemAPI.csproj", "{9C3BDF6A-520E-4204-8AB9-E4B6A8E91335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveManagementSystem.BusinessLogic", "LeaveManagementSystem.BusinessLogic\LeaveManagementSystem.BusinessLogic.csproj", "{C05CD62D-BCFE-4106-82E1-5801C93D628A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveManagementSystem.DataAccessLayer", "LeaveManagementSystem.DataAccessLayer\LeaveManagementSystem.DataAccessLayer.csproj", "{4177CB84-1997-4ED6-AC3D-48679E7C05B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveManagementSystem.DataModels", "LeaveManagementSystem.DataModels\LeaveManagementSystem.DataModels.csproj", "{D49442A3-4368-471D-A96D-D255E1DBF320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveManagementSystem.ViewModels", "LeaveManagementSystem.ViewModels\LeaveManagementSystem.ViewModels.csproj", "{9D3D5097-0CF2-40B7-B16F-A30EFDD23CB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5406A01-6FCD-4910-821D-F39B1F380E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5406A01-6FCD-4910-821D-F39B1F380E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5406A01-6FCD-4910-821D-F39B1F380E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5406A01-6FCD-4910-821D-F39B1F380E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C3BDF6A-520E-4204-8AB9-E4B6A8E91335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C3BDF6A-520E-4204-8AB9-E4B6A8E91335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C3BDF6A-520E-4204-8AB9-E4B6A8E91335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C3BDF6A-520E-4204-8AB9-E4B6A8E91335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C05CD62D-BCFE-4106-82E1-5801C93D628A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05CD62D-BCFE-4106-82E1-5801C93D628A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05CD62D-BCFE-4106-82E1-5801C93D628A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05CD62D-BCFE-4106-82E1-5801C93D628A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4177CB84-1997-4ED6-AC3D-48679E7C05B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4177CB84-1997-4ED6-AC3D-48679E7C05B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4177CB84-1997-4ED6-AC3D-48679E7C05B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4177CB84-1997-4ED6-AC3D-48679E7C05B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49442A3-4368-471D-A96D-D255E1DBF320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49442A3-4368-471D-A96D-D255E1DBF320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49442A3-4368-471D-A96D-D255E1DBF320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49442A3-4368-471D-A96D-D255E1DBF320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D3D5097-0CF2-40B7-B16F-A30EFDD23CB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D3D5097-0CF2-40B7-B16F-A30EFDD23CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D3D5097-0CF2-40B7-B16F-A30EFDD23CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D3D5097-0CF2-40B7-B16F-A30EFDD23CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C7565DF-BDBD-4A25-AAC5-1D6A27F35527}
+	EndGlobalSection
+EndGlobal
