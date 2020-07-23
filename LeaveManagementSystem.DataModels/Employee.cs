@@ -40,6 +40,7 @@ namespace LeaveManagementSystem.DataModels
         [MaxLength(5)]
         public Double Salary { get; set; }
         public DateTime LastWorkingDay { get; set; }
-        public EmployeeLeaveDetails EmployeeLeaveDetails { get; set; }
+
+        public ICollection<EmployeeLeaveDetails> EmployeeLeaveDetails { get; set; }
     }
 }

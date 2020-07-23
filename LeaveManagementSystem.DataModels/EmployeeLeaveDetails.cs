@@ -7,12 +7,17 @@ namespace LeaveManagementSystem.DataModels
 {
     public class EmployeeLeaveDetails
     {
-        [Key]
-        public int EmployeeLeaveId { get; set; }
-        [MaxLength(11)]       
+
+
+        [Column(Order = 1)]
         public string EmployeeId { get; set; }
         [MaxLength(11)]
-            
+
+        [Key]
+        [Column(Order = 2)]
+        public int EmployeeLeaveId { get; set; }
+        [MaxLength(11)]
+
         public int LeaveId { get; set; }
         [MaxLength(1)]
         public string Reason { get; set; }
@@ -23,7 +28,7 @@ namespace LeaveManagementSystem.DataModels
         public DateTime LeaveFromDate { get; set; }
         public DateTime LeaveToDate { get; set; }
         public bool FullOrFirstHalf { get; set; }
-        public bool FullOrSecondHalf { get; set; }        
-        public ICollection<Employee> Employees { get; set; }
+        public bool FullOrSecondHalf { get; set; }
+        public Employee Employees { get; set; }
     }
 }
