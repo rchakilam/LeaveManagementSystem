@@ -38,7 +38,7 @@ namespace LeaveManagementSystemAPI
 
             });
 
-            services.AddDbContext<LMSContext>(opts => opts.UseSqlServer(Configuration["ConnectionString:LeaveManagementSystemDatabase"]));
+            services.AddDbContext<LMSContext>(opts => opts.UseSqlServer(Configuration["ConnectionStrings:LeaveManagementSystemDatabase"]));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
